@@ -12,7 +12,7 @@ function main(){
     var rect = drawRect(xSize, ySize);
     var x = rect[0];
     var y = rect[1];
-
+    console.log("x: " + rect[0] + " y: " + rect[1]);
 
     if ($(".game-box")){
         $(".game-box").click(function(e){
@@ -41,6 +41,7 @@ function main(){
                     xSize -= Math.floor((0.025 * xSize) * 100) / 100;
                     ySize -= Math.floor((0.025 * ySize) * 100) / 100;
                     rect = drawRect(xSize, ySize);
+                    console.log("x: " + rect[0] + " y: " + rect[1]);
                     x = rect[0];
                     y = rect[1];
                 }

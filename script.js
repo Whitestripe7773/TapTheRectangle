@@ -80,6 +80,6 @@ function getRandomX(){
 }
 
 function getRandomY(){
-    var y = Math.ceil(Math.random() * 380) + 10;
+    var y = Math.ceil(Math.random() * 360) + 10;
     return y;
 }

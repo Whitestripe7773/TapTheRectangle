@@ -1,0 +1,28 @@
+body {
+  color: black;
+  text-align: center;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+canvas {
+  border: 0.1px solid black;
+  max-width: 100%;
+}
+
+.lastscore {
+  margin-top: 25%;
+}
+
+.description {
+  margin-top: 15%;
+}
+
+footer {
+  color: white;
+}
+
+footer .github {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

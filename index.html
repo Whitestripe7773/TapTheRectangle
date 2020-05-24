@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Game</title>
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body onload="main()">
+    <main>
+        <div class="row">
+            <div class="col-sm"><h4 class="lastscore"></h4></div>
+            <div class="col-sm">
+                <h1>Tap the rectangle to start!</h1>
+                <h2 class="timer"></h2>
+                <h3 class="points">Points: 0</h3>
+                <canvas class="game-box" width="320" height="600">
+                </canvas>
+            </div>
+            <div class="col-sm description"><h4>With each click <br> the rectangle gets <br> smaller :)</h4></div>
+        </div>
+        
+    </main>
+    <footer class="py-5 bg-dark">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center footer-box">
+                    <p>©2020 - Whitestripe7773 </p>
+                    <a class="github" href="https://github.com/Whitestripe7773"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

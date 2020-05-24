@@ -18,7 +18,7 @@ function main(){
         $(".game-box").click(function(e){
             var canvas = document.getElementsByClassName('game-box');
             var position = getCursorPosition(canvas, e);
-                if (position[0] >= x && position[0] <= x + 20 && position[1] >= y && position[1] <= y + 20)
+                if (position[0] >= x && position[0] <= x + xSize && position[1] >= y && position[1] <= y + ySize)
                 {
                     points += 1;
                     $(".points").text("Points: " + points);
@@ -80,6 +80,6 @@ function getRandomX(){
 }
 
 function getRandomY(){
-    var y = Math.ceil(Math.random() * 570) + 10;
+    var y = Math.ceil(Math.random() * 380) + 10;
     return y;
 }
